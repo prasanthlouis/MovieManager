@@ -193,6 +193,10 @@
     <Compile Include="Migrations\201607071556442_movietitle.Designer.cs">
       <DependentUpon>201607071556442_movietitle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201607071608422_populateGenres.cs" />
+    <Compile Include="Migrations\201607071608422_populateGenres.Designer.cs">
+      <DependentUpon>201607071608422_populateGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -284,6 +288,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201607071556442_movietitle.resx">
       <DependentUpon>201607071556442_movietitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607071608422_populateGenres.resx">
+      <DependentUpon>201607071608422_populateGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

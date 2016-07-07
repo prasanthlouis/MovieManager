@@ -177,6 +177,22 @@
     <Compile Include="Migrations\201607071515243_Movie_Model.Designer.cs">
       <DependentUpon>201607071515243_Movie_Model.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201607071552240_updatedConventions.cs" />
+    <Compile Include="Migrations\201607071552240_updatedConventions.Designer.cs">
+      <DependentUpon>201607071552240_updatedConventions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201607071553582_GenreMod.cs" />
+    <Compile Include="Migrations\201607071553582_GenreMod.Designer.cs">
+      <DependentUpon>201607071553582_GenreMod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201607071555284_primarykeymod.cs" />
+    <Compile Include="Migrations\201607071555284_primarykeymod.Designer.cs">
+      <DependentUpon>201607071555284_primarykeymod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201607071556442_movietitle.cs" />
+    <Compile Include="Migrations\201607071556442_movietitle.Designer.cs">
+      <DependentUpon>201607071556442_movietitle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -256,6 +272,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201607071515243_Movie_Model.resx">
       <DependentUpon>201607071515243_Movie_Model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607071552240_updatedConventions.resx">
+      <DependentUpon>201607071552240_updatedConventions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607071553582_GenreMod.resx">
+      <DependentUpon>201607071553582_GenreMod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607071555284_primarykeymod.resx">
+      <DependentUpon>201607071555284_primarykeymod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607071556442_movietitle.resx">
+      <DependentUpon>201607071556442_movietitle.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

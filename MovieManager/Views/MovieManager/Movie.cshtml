@@ -15,7 +15,7 @@
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Rating)
-        @Html.TextBoxFor(m => m.Rating, new {@class = "form-control"})
+        @Html.TextBoxFor(m => m.Rating, new {@class = "form-control", Value = string.Empty})
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.DateAdded)
@@ -24,6 +24,10 @@
     <div class="form-group">
         @Html.LabelFor(m => m.TimeAdded)
         @Html.TextBoxFor(m => m.TimeAdded, new {@class = "form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.GenreType)
+        @Html.DropDownListFor(m => m.GenreType, new SelectList(Model.GenreList, "Id", "GenreType"), string.Empty, new {@class = "form-control"})
     </div>
 </form>
 

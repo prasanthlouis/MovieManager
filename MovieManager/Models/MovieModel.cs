@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace MovieManager.Models
 {
@@ -18,5 +19,7 @@ namespace MovieManager.Models
         [Required]
         [StringLength(255)]
         public ApplicationUser MovieUser { get; set; }
+
+        public DateTime DateEntered { get; set; }
     }
 }

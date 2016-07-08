@@ -1,4 +1,4 @@
-﻿@model MovieManager.Models.MovieModel
+﻿@model MovieManager.ViewModels.MovieViewModels
 @{
     ViewBag.Title = "Movie";
 }
@@ -16,6 +16,14 @@
     <div class="form-group">
         @Html.LabelFor(m => m.Rating)
         @Html.TextBoxFor(m => m.Rating, new {@class = "form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.DateAdded)
+        @Html.TextBoxFor(m => m.DateAdded, new {@class = "form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.TimeAdded)
+        @Html.TextBoxFor(m => m.TimeAdded, new {@class = "form-control"})
     </div>
 </form>
 

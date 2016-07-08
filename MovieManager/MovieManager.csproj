@@ -198,6 +198,10 @@
     <Compile Include="Migrations\201607071608422_populateGenres.Designer.cs">
       <DependentUpon>201607071608422_populateGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201607072004141_datenetered.cs" />
+    <Compile Include="Migrations\201607072004141_datenetered.Designer.cs">
+      <DependentUpon>201607072004141_datenetered.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -206,6 +210,7 @@
     <Compile Include="Models\MovieModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\MovieViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -293,6 +298,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201607071608422_populateGenres.resx">
       <DependentUpon>201607071608422_populateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607072004141_datenetered.resx">
+      <DependentUpon>201607072004141_datenetered.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
